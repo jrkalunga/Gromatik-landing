@@ -27,7 +27,7 @@ export default function Footer() {
             Gromatik
           </a>
           <p className="text-blanco/70 text-lg mb-2">
-            Diagnóstico ganadero impulsado por IA
+            Diagnóstico técnico-económico integral
           </p>
           <p className="text-blanco/50 text-sm mb-6">Argentina</p>
           <div className="w-16 h-px bg-blanco/20 mb-6" />

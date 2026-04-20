@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Gromatik | Diagnóstico ganadero impulsado por IA",
+  title: "Gromatik | Diagnóstico técnico-económico integral",
   description:
     "Gromatik evalúa el desempeño productivo y de manejo de tu establecimiento ganadero, detecta oportunidades y entrega un plan priorizado para mejorar resultados.",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Gromatik | Diagnóstico ganadero impulsado por IA",
+    title: "Gromatik | Diagnóstico técnico-económico integral",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado para aumentar rentabilidad.",
     url: "https://gromatik.ar",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gromatik | Diagnóstico ganadero impulsado por IA",
+    title: "Gromatik | Diagnóstico técnico-económico integral",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado.",
   },
