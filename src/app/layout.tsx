@@ -15,9 +15,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "GESGA | Diagnóstico ganadero impulsado por IA",
+  title: "Gromatik | Diagnóstico ganadero impulsado por IA",
   description:
-    "GESGA evalúa el desempeño productivo y de manejo de tu establecimiento ganadero, detecta oportunidades y entrega un plan priorizado para mejorar resultados.",
+    "Gromatik evalúa el desempeño productivo y de manejo de tu establecimiento ganadero, detecta oportunidades y entrega un plan priorizado para mejorar resultados.",
   keywords: [
     "diagnóstico ganadero",
     "mejora productiva",
@@ -30,24 +30,24 @@ export const metadata: Metadata = {
     "eficiencia reproductiva",
     "plan de mejoras",
   ],
-  authors: [{ name: "GESGA" }],
-  creator: "GESGA",
-  metadataBase: new URL("https://gesga.com.ar"),
+  authors: [{ name: "Gromatik" }],
+  creator: "Gromatik",
+  metadataBase: new URL("https://gromatik.ar"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "GESGA | Diagnóstico ganadero impulsado por IA",
+    title: "Gromatik | Diagnóstico ganadero impulsado por IA",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado para aumentar rentabilidad.",
-    url: "https://gesga.com.ar",
-    siteName: "GESGA",
+    url: "https://gromatik.ar",
+    siteName: "Gromatik",
     locale: "es_AR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "GESGA | Diagnóstico ganadero impulsado por IA",
+    title: "Gromatik | Diagnóstico ganadero impulsado por IA",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado.",
   },

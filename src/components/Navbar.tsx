@@ -31,7 +31,7 @@ export default function Navbar() {
             href="#"
             className="font-[var(--font-manrope)] text-2xl sm:text-3xl font-bold text-verde-profundo tracking-tight"
           >
-            GESGA
+            Gromatik
           </a>
           <a
             href="#contacto"

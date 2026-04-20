@@ -65,7 +65,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-2xl text-grafito/80 max-w-3xl mx-auto leading-relaxed"
         >
-          GESGA realiza diagnósticos técnico-económicos integrales que combinan
+          Gromatik realiza diagnósticos técnico-económicos integrales que combinan
           producción, costos, márgenes y capital para detectar restricciones,
           oportunidades y caminos de mejora con impacto medible.
         </motion.p>

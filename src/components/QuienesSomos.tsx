@@ -46,7 +46,7 @@ export default function QuienesSomos() {
           className="space-y-6 text-lg sm:text-xl text-grafito/80 leading-relaxed mb-16"
         >
           <p>
-            GESGA está conformado por un equipo de profesionales con formación y
+            Gromatik está conformado por un equipo de profesionales con formación y
             experiencia en producción agropecuaria, economía agraria y gestión
             de empresas agropecuarias.
           </p>

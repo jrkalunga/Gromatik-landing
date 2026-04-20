@@ -42,8 +42,8 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
-          subject: `Nuevo contacto GESGA: ${formData.nombre}`,
-          from_name: "GESGA Landing",
+          subject: `Nuevo contacto Gromatik: ${formData.nombre}`,
+          from_name: "Gromatik Landing",
           nombre: formData.nombre,
           rol: formData.rol || "No especificado",
           provincia: formData.provincia || "No especificada",
@@ -92,7 +92,7 @@ export default function ContactForm() {
             Tomar buenas decisiones requiere entender el sistema completo.
           </h2>
           <p className="text-lg sm:text-xl text-grafito/70">
-            GESGA te ayuda a ordenar la información, interpretar los resultados
+            Gromatik te ayuda a ordenar la información, interpretar los resultados
             y decidir con criterio técnico y económico, alineado con los
             objetivos de tu empresa.
           </p>

@@ -1,7 +1,7 @@
 import Dashboard from "@/components/Dashboard";
 
 export const metadata = {
-  title: "Demo Dashboard — GESGA",
+  title: "Demo Dashboard — Gromatik",
   description: "Dashboard de gestión agropecuaria - El Piojillo, Campaña 2024/25",
 };
 

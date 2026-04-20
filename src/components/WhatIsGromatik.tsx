@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
-export default function WhatIsGesga() {
+export default function WhatIsGromatik() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -21,7 +21,7 @@ export default function WhatIsGesga() {
           className="text-center mb-10 sm:mb-12"
         >
           <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
-            Qué es GESGA
+            Qué es Gromatik
           </h2>
         </motion.div>
 
@@ -32,7 +32,7 @@ export default function WhatIsGesga() {
           className="space-y-6 text-lg sm:text-xl text-grafito/80 leading-relaxed"
         >
           <p>
-            GESGA es un servicio de diagnóstico técnico-económico integral
+            Gromatik es un servicio de diagnóstico técnico-económico integral
             orientado a establecimientos agropecuarios de escala comercial.
           </p>
           <p>

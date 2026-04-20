@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import WhatIsGesga from "@/components/WhatIsGesga";
+import WhatIsGromatik from "@/components/WhatIsGromatik";
 import Problems from "@/components/Problems";
 import KPIs from "@/components/KPIs";
 import Deliverables from "@/components/Deliverables";
@@ -12,10 +12,10 @@ import Footer from "@/components/Footer";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "GESGA",
+  name: "Gromatik",
   description:
     "Diagnóstico técnico-económico integral para establecimientos agropecuarios de escala comercial en Argentina.",
-  url: "https://gesga.com.ar",
+  url: "https://gromatik.ar",
   areaServed: {
     "@type": "Country",
     name: "Argentina",
@@ -44,7 +44,7 @@ export default function Home() {
       <main className="min-h-screen">
         <Navbar />
         <Hero />
-        <WhatIsGesga />
+        <WhatIsGromatik />
         <Problems />
         <KPIs />
         <Deliverables />

@@ -65,7 +65,7 @@ export default function Problems() {
           </div>
 
           <p className="text-lg sm:text-xl text-verde-acento font-medium leading-relaxed">
-            GESGA permite leer el sistema completo, no solo sus indicadores
+            Gromatik permite leer el sistema completo, no solo sus indicadores
             aislados.
           </p>
         </motion.div>
