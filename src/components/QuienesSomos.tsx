@@ -13,7 +13,7 @@ const team = [
   {
     name: "Manuel",
     description:
-      "Ingeniero Agrónomo, con amplia experiencia en sistemas ganaderos, sanidad animal y experimentación a campo. Su trayectoria técnica y su trabajo en el ámbito institucional, particularmente en INTA, aportan profundidad productiva, rigor técnico y enfoque agroecosistémico al análisis del sistema.",
+      "Ingeniero Agrónomo con sólida trayectoria en INTA, donde lideró el grupo de Producción Animal y coordinó el área de investigación de la EEA San Luis. Experiencia en diseño de ensayos a campo, asesoramiento técnico directo a productores y liderazgo de equipos multidisciplinarios. Integra investigación aplicada y gestión operativa con enfoque agroecosistémico.",
   },
 ];
 
