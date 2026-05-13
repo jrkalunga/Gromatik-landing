@@ -8,7 +8,7 @@ const team = [
   {
     name: "Juan",
     description:
-      "Ingeniero Agrónomo, con formación de posgrado en economía agraria y experiencia en análisis de márgenes, costos, rentabilidad y evaluación económica de sistemas productivos. Su trayectoria en el ámbito institucional y técnico aporta la mirada económica, de gestión y de negocio al diagnóstico integral del establecimiento.",
+      "Ingeniero Agrónomo, Magíster en Economía Agraria por la Universidad de Buenos Aires, con trayectoria en INTA. Experiencia en análisis de márgenes brutos por actividad, sensibilidad económica, rentabilidad del capital y evaluación económica ex ante y ex post. Integra la mirada económica, financiera y de gestión al diagnóstico integral del establecimiento.",
   },
   {
     name: "Manuel",
