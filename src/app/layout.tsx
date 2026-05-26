@@ -10,9 +10,8 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Gromatik | Diagnóstico técnico-económico integral",
-  description:
-    "Gromatik evalúa el desempeño productivo y de manejo de tu establecimiento ganadero, detecta oportunidades y entrega un plan priorizado para mejorar resultados.",
+  title: "Gromatik",
+  description: "Medir el campo, decidir el negocio.",
   keywords: [
     "diagnóstico ganadero",
     "mejora productiva",
@@ -32,9 +31,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Gromatik | Medir el campo, decidir el negocio",
-    description:
-      "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado para aumentar rentabilidad.",
+    title: "Gromatik",
+    description: "Medir el campo, decidir el negocio.",
     url: "https://gromatik.ar",
     siteName: "Gromatik",
     locale: "es_AR",
@@ -50,9 +48,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gromatik | Medir el campo, decidir el negocio",
-    description:
-      "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado.",
+    title: "Gromatik",
+    description: "Medir el campo, decidir el negocio.",
     images: ["/og-image.png"],
   },
   robots: {
