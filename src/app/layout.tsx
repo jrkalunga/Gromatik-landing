@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 
@@ -37,19 +37,28 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Gromatik | Diagnóstico técnico-económico integral",
+    title: "Gromatik | Medir el campo, decidir el negocio",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado para aumentar rentabilidad.",
     url: "https://gromatik.ar",
     siteName: "Gromatik",
     locale: "es_AR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Gromatik — Medir el campo, decidir el negocio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gromatik | Diagnóstico técnico-económico integral",
+    title: "Gromatik | Medir el campo, decidir el negocio",
     description:
       "Evaluamos tu establecimiento ganadero y entregamos un plan de mejoras priorizado.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -62,6 +71,16 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#1A3A2A" },
+    { media: "(prefers-color-scheme: dark)", color: "#1A3A2A" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({
