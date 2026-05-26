@@ -33,7 +33,7 @@ export default function Navbar() {
             className="flex items-center gap-3"
           >
             <Image
-              src="/brand/icono-positivo.png"
+              src="/brand/icono-negativo.png"
               alt=""
               width={120}
               height={120}
