@@ -33,12 +33,12 @@ export default function Navbar() {
             className="flex items-center"
           >
             <Image
-              src="/brand/logo-negativo.png"
+              src="/brand/logo-negativo-sin-slogan.png"
               alt="Gromatik"
-              width={520}
-              height={180}
+              width={680}
+              height={160}
               priority
-              className="h-16 sm:h-20 w-auto"
+              className="h-12 sm:h-14 w-auto"
             />
           </a>
           <a
