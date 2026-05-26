@@ -21,10 +21,8 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       aria-label="Navegación principal"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-verde-oscuro/95 backdrop-blur-md shadow-lg shadow-verde-oscuro/30"
-          : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 bg-verde-profundo transition-shadow duration-300 ${
+        scrolled ? "shadow-lg shadow-verde-oscuro/30" : ""
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,24 +30,19 @@ export default function Navbar() {
           <a
             href="#"
             aria-label="Gromatik — ir al inicio"
-            className="flex items-center"
+            className="flex items-center gap-3"
           >
             <Image
-              src="/brand/logo-negativo.png"
-              alt="Gromatik — Medir el campo, decidir el negocio"
-              width={520}
-              height={180}
-              priority
-              className="hidden sm:block h-14 lg:h-16 w-auto"
-            />
-            <Image
-              src="/brand/icono-negativo.png"
-              alt="Gromatik"
+              src="/brand/icono-positivo.png"
+              alt=""
               width={120}
               height={120}
               priority
-              className="sm:hidden h-12 w-12 rounded-lg"
+              className="h-12 sm:h-14 w-12 sm:w-14"
             />
+            <span className="font-[var(--font-sora)] text-2xl sm:text-3xl font-extrabold text-blanco tracking-wider">
+              GROMATIK
+            </span>
           </a>
           <a
             href="#contacto"

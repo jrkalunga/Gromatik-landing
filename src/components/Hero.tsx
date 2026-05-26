@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-import VerticalLines from "@/components/brand/VerticalLines";
 
 const trustBullets = [
   "Mirada técnico-económica integrada",
@@ -17,14 +16,6 @@ const fadeInUp = {
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-verde-profundo pt-20">
-      <div className="absolute inset-0 pointer-events-none">
-        <VerticalLines
-          className="absolute bottom-0 left-0 right-0 h-14 sm:h-20 text-verde-acento"
-          opacity={0.22}
-          count={60}
-        />
-      </div>
-
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 sm:py-24">
         <motion.p
           variants={fadeInUp}

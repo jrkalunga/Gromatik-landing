@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { useState } from "react";
 import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 
 const roles = ["Dueño", "Administrador", "Asesor", "Otro"];
@@ -11,8 +11,6 @@ type FormStatus = "idle" | "loading" | "success" | "error";
 const WEB3FORMS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
 
 export default function ContactForm() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [status, setStatus] = useState<FormStatus>("idle");
   const [errorMessage, setErrorMessage] = useState("");
   const [formData, setFormData] = useState({
@@ -77,10 +75,11 @@ export default function ContactForm() {
   return (
     <section id="contacto" className="py-20 sm:py-28 bg-crema relative overflow-hidden">
 
-      <div ref={ref} className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-10 sm:mb-12"
         >
@@ -99,7 +98,8 @@ export default function ContactForm() {
 
         <motion.form
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="bg-blanco rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg border border-verde-profundo/5"
           onSubmit={handleSubmit}

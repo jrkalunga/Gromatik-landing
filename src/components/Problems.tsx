@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import VerticalLines from "@/components/brand/VerticalLines";
+import BulletGroma from "@/components/brand/BulletGroma";
 
 const problems = [
   "márgenes ajustados o inestables,",
@@ -17,13 +17,6 @@ export default function Problems() {
 
   return (
     <section className="py-20 sm:py-28 bg-verde-profundo relative overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none">
-        <VerticalLines
-          className="absolute bottom-0 left-0 right-0 h-10 text-verde-acento"
-          opacity={0.18}
-          count={60}
-        />
-      </div>
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -63,9 +56,9 @@ export default function Problems() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={isInView ? { opacity: 1, x: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-                  className="flex items-start gap-3 text-lg sm:text-xl text-blanco/80"
+                  className="flex items-center gap-4 text-lg sm:text-xl text-blanco/85"
                 >
-                  <span className="text-verde-acento mt-2">•</span>
+                  <BulletGroma className="text-blanco" />
                   <span>{problem}</span>
                 </motion.li>
               ))}
