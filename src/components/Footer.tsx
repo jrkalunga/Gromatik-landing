@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -20,13 +21,16 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center text-center"
         >
-          <a
-            href="#"
-            className="font-[var(--font-manrope)] text-3xl sm:text-4xl font-bold text-blanco tracking-tight mb-3"
-          >
-            Gromatik
+          <a href="#" aria-label="Gromatik — ir al inicio" className="mb-4">
+            <Image
+              src="/brand/logo-negativo.png"
+              alt="Gromatik — Medir el campo, decidir el negocio"
+              width={520}
+              height={180}
+              className="h-16 sm:h-20 w-auto"
+            />
           </a>
-          <p className="text-blanco/70 text-lg mb-2">
+          <p className="text-blanco/70 text-base sm:text-lg mb-2">
             Diagnóstico técnico-económico integral
           </p>
           <p className="text-blanco/50 text-sm mb-6">Argentina</p>

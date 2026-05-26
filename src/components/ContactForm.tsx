@@ -244,7 +244,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 disabled={status === "loading"}
-                className="w-full inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-blanco bg-verde-acento rounded-xl hover:bg-verde-profundo transition-all duration-200 shadow-lg shadow-verde-acento/25 hover:shadow-verde-profundo/25 focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-blanco bg-verde-profundo rounded-xl hover:bg-verde-oscuro transition-all duration-200 shadow-lg shadow-verde-profundo/25 hover:shadow-verde-oscuro/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 disabled:opacity-70 disabled:cursor-not-allowed"
               >
                 {status === "loading" ? (
                   <>

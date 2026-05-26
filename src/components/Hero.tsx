@@ -79,7 +79,7 @@ export default function Hero() {
         >
           <a
             href="#contacto"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blanco bg-verde-acento rounded-full hover:bg-verde-profundo transition-all duration-200 shadow-lg shadow-verde-acento/25 hover:shadow-verde-profundo/25 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blanco bg-verde-profundo rounded-full hover:bg-verde-oscuro transition-all duration-200 shadow-lg shadow-verde-profundo/25 hover:shadow-verde-oscuro/30 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2"
           >
             Conversar sobre el diagnóstico de mi campo
           </a>
