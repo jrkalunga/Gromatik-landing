@@ -22,11 +22,11 @@ export default function Hero() {
           initial="initial"
           animate="animate"
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="inline-flex items-center gap-3 text-xs sm:text-sm tracking-[0.32em] font-semibold text-verde-acento uppercase mb-6 sm:mb-8"
+          className="inline-flex items-center gap-4 text-base sm:text-lg md:text-xl tracking-[0.28em] font-semibold text-verde-acento uppercase mb-8 sm:mb-10"
         >
-          <span className="inline-block w-8 h-px bg-verde-acento/60" />
+          <span className="inline-block w-10 sm:w-14 h-[2px] bg-verde-acento/70" />
           Medir el campo · Decidir el negocio
-          <span className="inline-block w-8 h-px bg-verde-acento/60" />
+          <span className="inline-block w-10 sm:w-14 h-[2px] bg-verde-acento/70" />
         </motion.p>
 
         <motion.h1

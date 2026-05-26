@@ -29,20 +29,17 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 sm:h-24">
           <a
             href="#"
-            aria-label="Gromatik — ir al inicio"
-            className="flex items-center gap-3"
+            aria-label="Gromatik — Medir el campo, decidir el negocio"
+            className="flex items-center"
           >
             <Image
-              src="/brand/icono-negativo.png"
-              alt=""
-              width={120}
-              height={120}
+              src="/brand/logo-negativo.png"
+              alt="Gromatik"
+              width={520}
+              height={180}
               priority
-              className="h-12 sm:h-14 w-12 sm:w-14"
+              className="h-16 sm:h-20 w-auto"
             />
-            <span className="font-[var(--font-sora)] text-2xl sm:text-3xl font-extrabold text-blanco tracking-wider">
-              GROMATIK
-            </span>
           </a>
           <a
             href="#contacto"

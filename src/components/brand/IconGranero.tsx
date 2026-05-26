@@ -8,20 +8,20 @@ export default function IconGranero({ className }: Props) {
       viewBox="0 0 64 64"
       fill="none"
       stroke="currentColor"
-      strokeWidth={2.5}
+      strokeWidth={2.2}
       strokeLinecap="round"
       strokeLinejoin="round"
       className={className}
       aria-hidden="true"
     >
-      <path d="M8 30 L 32 8 L 56 30" />
-      <path d="M14 30 L 14 56 L 50 56 L 50 30" />
-      <path d="M14 56 L 50 56" />
-      <line x1="20" y1="34" x2="20" y2="56" />
-      <line x1="26" y1="34" x2="26" y2="56" />
-      <line x1="38" y1="34" x2="38" y2="56" />
-      <line x1="44" y1="34" x2="44" y2="56" />
-      <path d="M28 56 L 28 42 L 36 42 L 36 56" />
+      <path d="M8 28 L 32 10 L 56 28" />
+      <path d="M12 28 L 12 54 L 52 54 L 52 28" />
+      <line x1="6" y1="54" x2="58" y2="54" />
+      <rect x="28" y="16" width="8" height="8" />
+      <path d="M18 46 L 26 38 L 32 42 L 44 30" />
+      <path d="M38 30 L 44 30 L 44 36" />
+      <line x1="16" y1="40" x2="16" y2="54" />
+      <line x1="48" y1="40" x2="48" y2="54" />
     </svg>
   );
 }
