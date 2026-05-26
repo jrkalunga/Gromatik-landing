@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
+import VerticalLines from "@/components/brand/VerticalLines";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -12,6 +13,11 @@ export default function Footer() {
     <footer className="bg-verde-profundo py-12 sm:py-16 relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-blanco/10 to-transparent" />
+        <VerticalLines
+          className="absolute top-0 left-0 right-0 h-12 text-verde-acento"
+          opacity={0.18}
+          count={36}
+        />
       </div>
 
       <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

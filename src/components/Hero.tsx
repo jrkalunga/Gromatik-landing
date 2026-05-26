@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import VerticalLines from "@/components/brand/VerticalLines";
 
 const trustBullets = [
   "Pensado para productores de escala comercial",
@@ -41,6 +42,11 @@ export default function Hero() {
           </pattern>
           <rect width="100" height="100" fill="url(#grid)" />
         </svg>
+        <VerticalLines
+          className="absolute bottom-0 left-0 right-0 h-16 sm:h-24 text-verde-profundo"
+          opacity={0.12}
+          count={28}
+        />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 sm:py-24">

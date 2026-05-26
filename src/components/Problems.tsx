@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import VerticalLines from "@/components/brand/VerticalLines";
 
 const problems = [
   "márgenes ajustados o inestables,",
@@ -18,6 +19,11 @@ export default function Problems() {
     <section className="py-20 sm:py-28 bg-verde-profundo relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-verde-acento/10 rounded-full blur-3xl" />
+        <VerticalLines
+          className="absolute bottom-0 left-0 right-0 h-20 sm:h-28 text-verde-acento"
+          opacity={0.22}
+          count={32}
+        />
       </div>
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
