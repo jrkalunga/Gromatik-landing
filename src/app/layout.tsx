@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       {
         url: "/og-image.png",
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: "Gromatik — Medir el campo, decidir el negocio",
       },
     ],
