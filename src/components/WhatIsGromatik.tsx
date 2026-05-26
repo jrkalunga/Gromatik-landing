@@ -2,16 +2,22 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import DiagonalStripes from "@/components/brand/DiagonalStripes";
 
 export default function WhatIsGromatik() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-verde-profundo/10 to-transparent" />
-      </div>
+    <section className="py-20 sm:py-28 bg-arena relative overflow-hidden">
+      <DiagonalStripes
+        className="absolute top-0 right-0 w-64 h-64 text-verde-acento -translate-y-1/3 translate-x-1/3 hidden md:block"
+        opacity={0.18}
+      />
+      <DiagonalStripes
+        className="absolute bottom-0 left-0 w-48 h-48 text-verde-profundo translate-y-1/3 -translate-x-1/3 hidden md:block"
+        opacity={0.1}
+      />
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -20,7 +26,10 @@ export default function WhatIsGromatik() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 sm:mb-12"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
+          <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
+            Concepto
+          </p>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Qué es Gromatik
           </h2>
         </motion.div>

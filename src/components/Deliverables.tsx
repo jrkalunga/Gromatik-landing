@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { CheckCircle2 } from "lucide-react";
+import DiagonalStripes from "@/components/brand/DiagonalStripes";
 
 const deliverables = [
   "Dashboard de KPIs técnicos y económicos del establecimiento.",
@@ -18,10 +19,15 @@ export default function Deliverables() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="que-entregamos" className="py-20 sm:py-28 bg-arena relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-verde-profundo/10 to-transparent" />
-      </div>
+    <section id="que-entregamos" className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
+      <DiagonalStripes
+        className="absolute top-10 left-0 w-40 h-40 text-verde-acento -translate-x-1/2 hidden md:block"
+        opacity={0.15}
+      />
+      <DiagonalStripes
+        className="absolute bottom-10 right-0 w-56 h-56 text-verde-profundo translate-x-1/3 hidden md:block"
+        opacity={0.08}
+      />
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -30,7 +36,10 @@ export default function Deliverables() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
+          <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
+            Entregables
+          </p>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Qué entregamos
           </h2>
         </motion.div>

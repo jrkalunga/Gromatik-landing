@@ -2,6 +2,8 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import BigChevron from "@/components/brand/BigChevron";
+import DotPattern from "@/components/brand/DotPattern";
 
 const aiUseCases = [
   "integrar y procesar grandes volúmenes de información productiva, económica y ambiental,",
@@ -14,10 +16,16 @@ export default function AISection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 sm:py-28 bg-verde-profundo relative overflow-hidden">
-      <div className="absolute inset-0">
+    <section className="py-20 sm:py-28 bg-verde-oscuro relative overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none">
+        <DotPattern
+          className="absolute inset-0 w-full h-full text-verde-acento"
+          opacity={0.1}
+        />
         <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-verde-acento/10 rounded-full blur-3xl translate-x-1/2" />
         <div className="absolute bottom-1/4 left-0 w-[400px] h-[400px] bg-verde-acento/5 rounded-full blur-3xl -translate-x-1/2" />
+        <BigChevron className="absolute top-12 right-12 w-32 h-16 text-verde-acento/40 hidden lg:block" />
+        <BigChevron className="absolute bottom-12 left-12 w-40 h-20 text-verde-acento/30 hidden lg:block" />
       </div>
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,7 +35,10 @@ export default function AISection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 sm:mb-12"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-blanco">
+          <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
+            AgTech aplicado al campo
+          </p>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-blanco">
             Nuestro enfoque
           </h2>
         </motion.div>

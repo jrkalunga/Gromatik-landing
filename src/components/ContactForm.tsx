@@ -88,7 +88,10 @@ export default function ContactForm() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 sm:mb-12"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo mb-4">
+          <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
+            Conversemos
+          </p>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo mb-4">
             Tomar buenas decisiones requiere entender el sistema completo.
           </h2>
           <p className="text-lg sm:text-xl text-grafito/70">

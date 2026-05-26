@@ -49,7 +49,7 @@ export default function HowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             De diagnóstico a acción, sin vueltas
           </h2>
         </motion.div>
@@ -67,14 +67,14 @@ export default function HowItWorks() {
               >
                 <div className="bg-blanco rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-verde-profundo/5 h-full">
                   <div className="flex items-center justify-between mb-6">
-                    <span className="font-[var(--font-manrope)] text-4xl sm:text-5xl font-bold text-verde-profundo/10">
+                    <span className="font-[var(--font-sora)] text-4xl sm:text-5xl font-bold text-verde-profundo/10">
                       {step.number}
                     </span>
                     <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl bg-verde-acento/10 group-hover:bg-verde-acento/20 transition-colors duration-300">
                       <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-verde-acento" />
                     </div>
                   </div>
-                  <h3 className="font-[var(--font-manrope)] text-xl sm:text-2xl font-semibold text-verde-profundo mb-2">
+                  <h3 className="font-[var(--font-sora)] text-xl sm:text-2xl font-semibold text-verde-profundo mb-2">
                     {step.title}
                   </h3>
                   <p className="text-grafito/70 leading-relaxed">

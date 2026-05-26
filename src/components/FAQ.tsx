@@ -56,7 +56,7 @@ function FAQItem({
         onClick={onClick}
         className="w-full flex items-center justify-between py-5 sm:py-6 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 rounded-lg"
       >
-        <span className="font-[var(--font-manrope)] text-lg sm:text-xl font-semibold text-verde-profundo pr-4">
+        <span className="font-[var(--font-sora)] text-lg sm:text-xl font-semibold text-verde-profundo pr-4">
           {question}
         </span>
         <span
@@ -100,7 +100,7 @@ export default function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Preguntas frecuentes
           </h2>
         </motion.div>

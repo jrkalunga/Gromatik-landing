@@ -34,7 +34,10 @@ export default function QuienesSomos() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 sm:mb-12"
         >
-          <h2 className="font-[var(--font-manrope)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
+          <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
+            Equipo
+          </p>
+          <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Quiénes somos
           </h2>
         </motion.div>
@@ -70,7 +73,7 @@ export default function QuienesSomos() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mb-8"
         >
-          <h3 className="font-[var(--font-manrope)] text-2xl sm:text-3xl font-bold text-verde-profundo text-center">
+          <h3 className="font-[var(--font-sora)] text-2xl sm:text-3xl font-bold text-verde-profundo text-center">
             Equipo
           </h3>
         </motion.div>
@@ -88,7 +91,7 @@ export default function QuienesSomos() {
                 <div className="w-14 h-14 flex items-center justify-center rounded-full bg-verde-acento/10 group-hover:bg-verde-acento/20 transition-colors duration-300">
                   <User className="w-7 h-7 text-verde-acento" />
                 </div>
-                <h4 className="font-[var(--font-manrope)] text-xl sm:text-2xl font-semibold text-verde-profundo">
+                <h4 className="font-[var(--font-sora)] text-xl sm:text-2xl font-semibold text-verde-profundo">
                   {member.name}
                 </h4>
               </div>
