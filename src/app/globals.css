@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
-/* Gromatik Color Palette */
+/* Gromatik Color Palette — manual de marca oficial (mayo 2026) */
 :root {
-  --verde-profundo: #0B2E22;
-  --verde-acento: #1F8A5B;
+  --verde-oscuro: #0B261D;
+  --verde-profundo: #1A3A2A;
+  --verde-acento: #8CA72D;
   --arena: #F4F1EA;
-  --grafito: #1F2937;
+  --crema: #DADDC4;
+  --grafito: #464941;
   --blanco: #FFFFFF;
-  
+
   --background: var(--arena);
   --foreground: var(--grafito);
 }
@@ -15,9 +17,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-verde-oscuro: var(--verde-oscuro);
   --color-verde-profundo: var(--verde-profundo);
   --color-verde-acento: var(--verde-acento);
   --color-arena: var(--arena);
+  --color-crema: var(--crema);
   --color-grafito: var(--grafito);
   --color-blanco: var(--blanco);
   --font-sans: var(--font-inter);
@@ -37,7 +41,7 @@ body {
 
 /* Custom selection */
 ::selection {
-  background-color: var(--verde-acento);
+  background-color: var(--verde-profundo);
   color: var(--blanco);
 }
 
