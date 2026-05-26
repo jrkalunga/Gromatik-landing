@@ -44,11 +44,21 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 sm:py-24">
+        <motion.p
+          variants={fadeInUp}
+          initial="initial"
+          animate="animate"
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="text-xs sm:text-sm tracking-[0.25em] font-bold text-verde-acento uppercase mb-5 sm:mb-6"
+        >
+          Medir el campo · Decidir el negocio
+        </motion.p>
+
         <motion.h1
           variants={fadeInUp}
           initial="initial"
           animate="animate"
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
           className="font-[var(--font-manrope)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-verde-profundo leading-[1.1] tracking-tight"
         >
           Entendé cómo funciona tu sistema productivo.{" "}
