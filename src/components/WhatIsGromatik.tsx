@@ -2,23 +2,13 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import DiagonalStripes from "@/components/brand/DiagonalStripes";
 
 export default function WhatIsGromatik() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 sm:py-28 bg-arena relative overflow-hidden">
-      <DiagonalStripes
-        className="absolute top-0 right-0 w-64 h-64 text-verde-acento -translate-y-1/3 translate-x-1/3 hidden md:block"
-        opacity={0.18}
-      />
-      <DiagonalStripes
-        className="absolute bottom-0 left-0 w-48 h-48 text-verde-profundo translate-y-1/3 -translate-x-1/3 hidden md:block"
-        opacity={0.1}
-      />
-
+    <section className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

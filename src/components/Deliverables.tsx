@@ -3,7 +3,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { CheckCircle2 } from "lucide-react";
-import DiagonalStripes from "@/components/brand/DiagonalStripes";
 
 const deliverables = [
   "Dashboard de KPIs técnicos y económicos del establecimiento.",
@@ -20,14 +19,6 @@ export default function Deliverables() {
 
   return (
     <section id="que-entregamos" className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
-      <DiagonalStripes
-        className="absolute top-10 left-0 w-40 h-40 text-verde-acento -translate-x-1/2 hidden md:block"
-        opacity={0.15}
-      />
-      <DiagonalStripes
-        className="absolute bottom-10 right-0 w-56 h-56 text-verde-profundo translate-x-1/3 hidden md:block"
-        opacity={0.08}
-      />
 
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -51,7 +42,7 @@ export default function Deliverables() {
               initial={{ opacity: 0, x: -20 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
-              className="group flex items-start gap-4 p-5 sm:p-6 bg-blanco rounded-xl border border-verde-profundo/5 hover:shadow-md hover:border-verde-acento/20 transition-all duration-300"
+              className="group flex items-start gap-4 p-5 sm:p-6 bg-crema/50 rounded-xl border border-verde-profundo/10 hover:shadow-md hover:border-verde-acento/40 transition-all duration-300"
             >
               <div className="flex-shrink-0 w-6 h-6 mt-0.5">
                 <CheckCircle2 className="w-6 h-6 text-verde-acento" />

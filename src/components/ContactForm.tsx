@@ -75,11 +75,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contacto" className="py-20 sm:py-28 bg-arena relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-verde-profundo/10 to-transparent" />
-        <div className="absolute bottom-1/4 right-0 w-[500px] h-[500px] bg-verde-acento/5 rounded-full blur-3xl translate-x-1/2" />
-      </div>
+    <section id="contacto" className="py-20 sm:py-28 bg-crema relative overflow-hidden">
 
       <div ref={ref} className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div

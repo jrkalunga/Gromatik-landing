@@ -5,12 +5,14 @@
   --verde-oscuro: #0B261D;
   --verde-profundo: #1A3A2A;
   --verde-acento: #8CA72D;
-  --arena: #F4F1EA;
   --crema: #DADDC4;
   --grafito: #464941;
   --blanco: #FFFFFF;
 
-  --background: var(--arena);
+  /* arena se mantiene como alias del crema oficial para compatibilidad */
+  --arena: var(--crema);
+
+  --background: var(--blanco);
   --foreground: var(--grafito);
 }
 

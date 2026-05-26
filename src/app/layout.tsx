@@ -86,7 +86,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <body
-        className={`${sora.variable} font-sans antialiased bg-arena text-grafito`}
+        className={`${sora.variable} font-sans antialiased bg-blanco text-grafito`}
       >
         {children}
       </body>

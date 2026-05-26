@@ -5,7 +5,6 @@ import { useRef } from "react";
 import IconHoja from "@/components/brand/IconHoja";
 import IconGrafico from "@/components/brand/IconGrafico";
 import IconGranero from "@/components/brand/IconGranero";
-import DotPattern from "@/components/brand/DotPattern";
 
 const categories = [
   {
@@ -46,11 +45,6 @@ export default function KPIs() {
 
   return (
     <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
-      <DotPattern
-        className="absolute inset-0 w-full h-full text-verde-profundo"
-        opacity={0.08}
-      />
-
       <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

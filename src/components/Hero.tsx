@@ -3,11 +3,8 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import VerticalLines from "@/components/brand/VerticalLines";
-import BigChevron from "@/components/brand/BigChevron";
-import DotPattern from "@/components/brand/DotPattern";
 
 const trustBullets = [
-  "Productores de escala comercial",
   "Mirada técnico-económica integrada",
   "Plan de mejoras de mediano y largo plazo",
 ];
@@ -21,25 +18,10 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-verde-profundo pt-20">
       <div className="absolute inset-0 pointer-events-none">
-        <DotPattern
-          className="absolute inset-0 w-full h-full text-verde-acento"
-          opacity={0.08}
-        />
-        <div className="absolute -top-32 -right-32 w-[640px] h-[640px] bg-verde-acento/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-32 -left-32 w-[520px] h-[520px] bg-verde-oscuro/60 rounded-full blur-3xl" />
-
         <VerticalLines
-          className="absolute top-24 right-0 w-1/3 h-2/3 text-verde-acento hidden md:block"
-          opacity={0.55}
-          count={14}
-        />
-        <BigChevron className="absolute top-1/4 left-8 w-24 h-12 text-verde-acento/40 hidden lg:block" />
-        <BigChevron className="absolute bottom-24 right-12 w-32 h-16 text-verde-acento/30 hidden lg:block" />
-
-        <VerticalLines
-          className="absolute bottom-0 left-0 right-0 h-20 sm:h-28 text-verde-acento"
-          opacity={0.6}
-          count={36}
+          className="absolute bottom-0 left-0 right-0 h-14 sm:h-20 text-verde-acento"
+          opacity={0.22}
+          count={60}
         />
       </div>
 
@@ -49,11 +31,11 @@ export default function Hero() {
           initial="initial"
           animate="animate"
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="inline-flex items-center gap-3 text-sm sm:text-base tracking-[0.32em] font-bold text-verde-acento uppercase mb-6 sm:mb-8"
+          className="inline-flex items-center gap-3 text-xs sm:text-sm tracking-[0.32em] font-semibold text-verde-acento uppercase mb-6 sm:mb-8"
         >
-          <span className="inline-block w-8 h-px bg-verde-acento" />
+          <span className="inline-block w-8 h-px bg-verde-acento/60" />
           Medir el campo · Decidir el negocio
-          <span className="inline-block w-8 h-px bg-verde-acento" />
+          <span className="inline-block w-8 h-px bg-verde-acento/60" />
         </motion.p>
 
         <motion.h1
@@ -64,9 +46,7 @@ export default function Hero() {
           className="font-[var(--font-sora)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blanco leading-[1.05] tracking-tight"
         >
           Entendé cómo funciona tu sistema productivo.{" "}
-          <span className="relative inline-block">
-            <span className="text-verde-acento">Mejorá donde realmente importa.</span>
-          </span>
+          <span className="text-verde-acento">Mejorá donde realmente importa.</span>
         </motion.h1>
 
         <motion.p
@@ -90,7 +70,7 @@ export default function Hero() {
         >
           <a
             href="#contacto"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-verde-oscuro bg-verde-acento rounded-full hover:bg-crema transition-all duration-200 shadow-lg shadow-verde-acento/30 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 focus-visible:ring-offset-verde-profundo"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-verde-oscuro bg-verde-acento rounded-full hover:bg-crema transition-all duration-200 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 focus-visible:ring-offset-verde-profundo"
           >
             Conversar sobre el diagnóstico de mi campo
           </a>

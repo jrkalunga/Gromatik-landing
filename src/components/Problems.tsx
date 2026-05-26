@@ -17,12 +17,11 @@ export default function Problems() {
 
   return (
     <section className="py-20 sm:py-28 bg-verde-profundo relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-verde-acento/10 rounded-full blur-3xl" />
+      <div className="absolute inset-0 pointer-events-none">
         <VerticalLines
-          className="absolute bottom-0 left-0 right-0 h-20 sm:h-28 text-verde-acento"
-          opacity={0.22}
-          count={32}
+          className="absolute bottom-0 left-0 right-0 h-10 text-verde-acento"
+          opacity={0.18}
+          count={60}
         />
       </div>
 

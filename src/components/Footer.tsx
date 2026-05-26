@@ -11,12 +11,11 @@ export default function Footer() {
 
   return (
     <footer className="bg-verde-profundo py-12 sm:py-16 relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-blanco/10 to-transparent" />
+      <div className="absolute inset-0 pointer-events-none">
         <VerticalLines
-          className="absolute top-0 left-0 right-0 h-12 text-verde-acento"
+          className="absolute top-0 left-0 right-0 h-8 text-verde-acento"
           opacity={0.18}
-          count={36}
+          count={60}
         />
       </div>
 

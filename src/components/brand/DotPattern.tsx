@@ -1,28 +1,25 @@
 type Props = {
   className?: string;
+  size?: number;
+  dot?: number;
   opacity?: number;
 };
 
-export default function DotPattern({ className, opacity = 1 }: Props) {
+export default function DotPattern({
+  className,
+  size = 22,
+  dot = 1.1,
+  opacity = 0.18,
+}: Props) {
   return (
-    <svg
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      className={className}
-      style={{ opacity }}
+    <div
       aria-hidden="true"
-    >
-      <defs>
-        <pattern
-          id="gromatik-dots"
-          width="10"
-          height="10"
-          patternUnits="userSpaceOnUse"
-        >
-          <circle cx="5" cy="5" r="1.4" fill="currentColor" />
-        </pattern>
-      </defs>
-      <rect width="100" height="100" fill="url(#gromatik-dots)" />
-    </svg>
+      className={className}
+      style={{
+        opacity,
+        backgroundImage: `radial-gradient(currentColor ${dot}px, transparent ${dot}px)`,
+        backgroundSize: `${size}px ${size}px`,
+      }}
+    />
   );
 }
