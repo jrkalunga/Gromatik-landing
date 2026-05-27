@@ -48,9 +48,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mt-8 sm:mt-10 text-lg sm:text-xl md:text-2xl text-crema/85 max-w-3xl mx-auto leading-relaxed"
         >
-          Gromatik realiza diagnósticos técnico-económicos integrales que combinan
-          producción, costos, márgenes y capital para detectar restricciones,
-          oportunidades y caminos de mejora con impacto medible.
+          Gromatik realiza diagnósticos técnico-económicos integrales para
+          establecimientos agropecuarios en Argentina —ganadería, agricultura y
+          sistemas mixtos—. Combinamos producción, costos, márgenes y capital
+          para detectar restricciones y caminos de mejora con impacto medible.
         </motion.p>
 
         <motion.div
