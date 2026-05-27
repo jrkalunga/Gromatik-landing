@@ -6,6 +6,7 @@ import { Check } from "lucide-react";
 const trustBullets = [
   "Mirada técnico-económica integrada",
   "Plan de mejoras de mediano y largo plazo",
+  "Argentina · experiencia INTA",
 ];
 
 const fadeInUp = {

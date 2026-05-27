@@ -1,0 +1,39 @@
+# Gromatik
+
+> Diagnóstico técnico-económico integral para establecimientos agropecuarios de escala comercial en Argentina. Slogan: "Medir el campo, decidir el negocio".
+
+Gromatik es un servicio profesional argentino que analiza el desempeño productivo, económico y de capital de campos ganaderos y mixtos agrícola-ganaderos. Combina mirada técnica y económica para detectar restricciones, oportunidades y caminos de mejora con impacto medible. El nombre proviene de la *groma*, instrumento ancestral romano de medición y nivelación de campo.
+
+## Equipo fundador
+
+- **Juan Froment** — Ingeniero Agrónomo, Magíster en Economía Agraria por la Universidad de Buenos Aires. Trayectoria en INTA. Dirige la mirada económica, financiera y de gestión.
+- **Manuel Martínez** — Ingeniero Agrónomo con trayectoria en INTA, donde lideró el grupo de Producción Animal y coordinó investigación en la EEA San Luis. Dirige la mirada técnica y productiva. LinkedIn: https://www.linkedin.com/in/manuel-martinez-9b079676/
+
+## Servicios
+
+- Diagnóstico técnico-económico integral
+- Análisis de márgenes brutos por actividad (cría, recría, engorde, agricultura)
+- Análisis de rentabilidad del capital invertido
+- Plan de mejoras priorizado por impacto y esfuerzo
+- Escenarios de mejora productiva y económica con evaluación de impacto, riesgos y retornos
+
+## Cómo trabaja Gromatik
+
+Gromatik no entrega recomendaciones genéricas. Cada propuesta se construye a medida del campo y del proyecto productivo, integrando producción, costos, capital y contexto agroecosistémico. La inteligencia artificial se usa como herramienta de apoyo para procesar grandes volúmenes de información productiva, económica y ambiental, pero las conclusiones surgen del criterio técnico-económico profesional.
+
+## A quién se dirige
+
+Productores agropecuarios de escala comercial en Argentina que gestionan su establecimiento como una empresa: ganadería de cría, invernada y feedlot, sistemas mixtos agrícola-ganaderos.
+
+## Cobertura geográfica
+
+Argentina (todo el país).
+
+## Recursos
+
+- [Sitio principal](https://gromatik.ar)
+- [Demo del dashboard](https://gromatik.ar/demo)
+
+## Contacto
+
+A través del formulario en https://gromatik.ar (sección "Conversemos") o directo a través de las redes profesionales del equipo.

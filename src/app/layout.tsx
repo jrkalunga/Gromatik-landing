@@ -10,20 +10,9 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Gromatik",
-  description: "Medir el campo, decidir el negocio.",
-  keywords: [
-    "diagnóstico ganadero",
-    "mejora productiva",
-    "ganadería Argentina",
-    "inteligencia artificial",
-    "establecimientos ganaderos",
-    "cría",
-    "invernada",
-    "feedlot",
-    "eficiencia reproductiva",
-    "plan de mejoras",
-  ],
+  title: "Gromatik | Diagnóstico técnico-económico para campos en Argentina",
+  description:
+    "Diagnóstico técnico-económico integral para establecimientos agropecuarios en Argentina. Analizamos producción, costos, márgenes y capital para decidir con datos.",
   authors: [{ name: "Gromatik" }],
   creator: "Gromatik",
   metadataBase: new URL("https://gromatik.ar"),
