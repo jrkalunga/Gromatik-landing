@@ -65,6 +65,7 @@ const organizationLd = {
           name: "Universidad de Buenos Aires",
         },
       ],
+      sameAs: ["https://www.linkedin.com/in/jrfroment"],
       worksFor: { "@id": `${SITE_URL}#organization` },
     },
     {
