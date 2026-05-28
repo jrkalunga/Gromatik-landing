@@ -43,10 +43,10 @@ export default function KPIs() {
     <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ y: 16 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
           <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
@@ -63,10 +63,10 @@ export default function KPIs() {
             return (
               <motion.div
                 key={index}
-                initial={{ y: 24 }}
-                whileInView={{ y: 0 }}
-                viewport={{ once: true, amount: 0.1 }}
-                transition={{ duration: 0.5, delay: index * 0.08 }}
+                initial={{ opacity: 0, y: 32 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.15 }}
+                transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
                 className="group relative bg-blanco rounded-2xl p-6 sm:p-8 border border-verde-profundo/10 hover:shadow-xl hover:border-verde-acento/40 transition-all duration-300"
               >
                 <div className="absolute top-0 left-8 right-8 h-1 bg-verde-acento rounded-b" />

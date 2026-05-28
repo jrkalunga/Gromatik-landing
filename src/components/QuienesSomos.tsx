@@ -25,10 +25,10 @@ export default function QuienesSomos() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ y: 16 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-10 sm:mb-12"
         >
           <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
@@ -40,10 +40,10 @@ export default function QuienesSomos() {
         </motion.div>
 
         <motion.div
-          initial={{ y: 20 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="space-y-6 text-lg sm:text-xl text-grafito/80 leading-relaxed mb-16"
         >
           <p>
@@ -66,10 +66,10 @@ export default function QuienesSomos() {
         </motion.div>
 
         <motion.div
-          initial={{ y: 16 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           className="mb-8"
         >
           <h3 className="font-[var(--font-sora)] text-2xl sm:text-3xl font-bold text-verde-profundo text-center">
@@ -81,10 +81,10 @@ export default function QuienesSomos() {
           {team.map((member, index) => (
             <motion.div
               key={index}
-              initial={{ y: 20 }}
-              whileInView={{ y: 0 }}
-              viewport={{ once: true, amount: 0.1 }}
-              transition={{ duration: 0.5, delay: 0.3 + index * 0.08 }}
+              initial={{ opacity: 0, y: 32 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.15 }}
+              transition={{ duration: 0.6, delay: 0.3 + index * 0.1, ease: "easeOut" }}
               className="group bg-arena rounded-2xl p-6 sm:p-8 border border-verde-profundo/5 hover:shadow-lg hover:border-verde-acento/20 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">

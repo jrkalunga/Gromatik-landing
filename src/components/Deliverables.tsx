@@ -17,10 +17,10 @@ export default function Deliverables() {
     <section id="que-entregamos" className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ y: 16 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
           <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
@@ -35,10 +35,10 @@ export default function Deliverables() {
           {deliverables.map((item, index) => (
             <motion.div
               key={index}
-              initial={{ x: -16 }}
-              whileInView={{ x: 0 }}
-              viewport={{ once: true, amount: 0.1 }}
-              transition={{ duration: 0.4, delay: index * 0.06 }}
+              initial={{ opacity: 0, x: -24 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.15 }}
+              transition={{ duration: 0.5, delay: index * 0.08, ease: "easeOut" }}
               className="group flex items-start gap-4 p-5 sm:p-6 bg-crema/50 rounded-xl border border-verde-profundo/10 hover:shadow-md hover:border-verde-acento/40 transition-all duration-300"
             >
               <div className="flex-shrink-0 w-6 h-6 mt-0.5">
@@ -50,10 +50,10 @@ export default function Deliverables() {
         </div>
 
         <motion.p
-          initial={{ y: 16 }}
-          whileInView={{ y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.15 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
           className="text-center text-lg sm:text-xl text-verde-profundo font-medium"
         >
           No trabajamos con recomendaciones genéricas: las propuestas se
