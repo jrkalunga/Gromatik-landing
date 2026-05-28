@@ -1,7 +1,5 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { User } from "lucide-react";
+import FadeIn from "@/components/brand/FadeIn";
 
 const team = [
   {
@@ -24,26 +22,17 @@ export default function QuienesSomos() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.15 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-center mb-10 sm:mb-12"
-        >
+        <FadeIn className="text-center mb-10 sm:mb-12">
           <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
             Equipo
           </p>
           <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Quiénes somos
           </h2>
-        </motion.div>
+        </FadeIn>
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.15 }}
-          transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+        <FadeIn
+          delay={0.1}
           className="space-y-6 text-lg sm:text-xl text-grafito/80 leading-relaxed mb-16"
         >
           <p>
@@ -63,28 +52,19 @@ export default function QuienesSomos() {
             una mirada integral y de largo plazo, orientada a productores que
             gestionan su establecimiento como una empresa.
           </p>
-        </motion.div>
+        </FadeIn>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.15 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          className="mb-8"
-        >
+        <FadeIn delay={0.2} className="mb-8">
           <h3 className="font-[var(--font-sora)] text-2xl sm:text-3xl font-bold text-verde-profundo text-center">
             Equipo
           </h3>
-        </motion.div>
+        </FadeIn>
 
         <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
           {team.map((member, index) => (
-            <motion.div
+            <FadeIn
               key={index}
-              initial={{ opacity: 0, y: 32 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.15 }}
-              transition={{ duration: 0.6, delay: 0.3 + index * 0.1, ease: "easeOut" }}
+              delay={0.3 + index * 0.12}
               className="group bg-arena rounded-2xl p-6 sm:p-8 border border-verde-profundo/5 hover:shadow-lg hover:border-verde-acento/20 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
@@ -98,7 +78,7 @@ export default function QuienesSomos() {
               <p className="text-grafito/80 leading-relaxed">
                 {member.description}
               </p>
-            </motion.div>
+            </FadeIn>
           ))}
         </div>
       </div>

@@ -94,3 +94,27 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--verde-acento);
 }
+
+/* Fade-in al entrar en viewport (usado por <FadeIn>) */
+.gromatik-fade {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.gromatik-fade.gromatik-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gromatik-fade,
+  .gromatik-fade.gromatik-fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

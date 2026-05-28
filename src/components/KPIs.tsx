@@ -1,9 +1,7 @@
-"use client";
-
-import { motion } from "framer-motion";
 import IconHoja from "@/components/brand/IconHoja";
 import IconGrafico from "@/components/brand/IconGrafico";
 import IconGranero from "@/components/brand/IconGranero";
+import FadeIn from "@/components/brand/FadeIn";
 
 const categories = [
   {
@@ -42,31 +40,22 @@ export default function KPIs() {
   return (
     <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.15 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-center mb-12 sm:mb-16"
-        >
+        <FadeIn className="text-center mb-12 sm:mb-16">
           <p className="text-xs sm:text-sm tracking-[0.3em] font-bold text-verde-acento uppercase mb-3">
             Qué analizamos
           </p>
           <h2 className="font-[var(--font-sora)] text-3xl sm:text-4xl md:text-5xl font-bold text-verde-profundo">
             Datos que generan decisiones
           </h2>
-        </motion.div>
+        </FadeIn>
 
         <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
           {categories.map((category, index) => {
             const Icon = category.icon;
             return (
-              <motion.div
+              <FadeIn
                 key={index}
-                initial={{ opacity: 0, y: 32 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.15 }}
-                transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+                delay={index * 0.12}
                 className="group relative bg-blanco rounded-2xl p-6 sm:p-8 border border-verde-profundo/10 hover:shadow-xl hover:border-verde-acento/40 transition-all duration-300"
               >
                 <div className="absolute top-0 left-8 right-8 h-1 bg-verde-acento rounded-b" />
@@ -90,7 +79,7 @@ export default function KPIs() {
                     </li>
                   ))}
                 </ul>
-              </motion.div>
+              </FadeIn>
             );
           })}
         </div>
