@@ -11,9 +11,9 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Gromatik | Diagnóstico técnico-económico para campos en Argentina",
+  title: "Gromatik | Consultoría técnico-económica agropecuaria en Argentina",
   description:
-    "Consultoría técnico-económica para campos ganaderos, agrícolas y mixtos en Argentina. Analizamos margen bruto, eficiencia productiva y rentabilidad del capital para mejorar resultados con plan priorizado.",
+    "Consultoría agropecuaria técnico-económica en Argentina. Te acompañamos en todo el ciclo —diagnóstico, plan de mejora, seguimiento, I+D y consultas— integrando margen bruto, eficiencia productiva y rentabilidad del capital.",
   authors: [{ name: "Gromatik" }],
   creator: "Gromatik",
   metadataBase: new URL("https://gromatik.ar"),

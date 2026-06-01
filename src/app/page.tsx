@@ -20,7 +20,7 @@ const organizationLd = {
   name: "Gromatik",
   alternateName: "Gromatik — Medir el campo, decidir el negocio",
   description:
-    "Diagnóstico técnico-económico integral para establecimientos agropecuarios de escala comercial en Argentina. Combina análisis productivo, económico y de capital para detectar restricciones y caminos de mejora con impacto medible.",
+    "Consultora agropecuaria técnico-económica en Argentina. Acompaña a establecimientos ganaderos, agrícolas y mixtos en todo el ciclo —diagnóstico, plan de mejora, seguimiento, I+D y consultas— integrando producción, costos, márgenes y capital para decidir mejor.",
   slogan: "Medir el campo, decidir el negocio",
   url: SITE_URL,
   logo: `${SITE_URL}/icon.png`,
@@ -35,10 +35,12 @@ const organizationLd = {
   },
   serviceType: [
     "Diagnóstico técnico-económico agropecuario",
-    "Consultoría ganadera",
+    "Plan de mejora estratégico",
+    "Seguimiento de sistemas agropecuarios",
+    "Investigación y desarrollo a campo",
+    "Consultas técnicas agropecuarias",
     "Análisis de márgenes brutos por actividad",
     "Análisis de rentabilidad del capital",
-    "Plan de mejoras priorizado",
   ],
   knowsAbout: [
     "Ganadería",

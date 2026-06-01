@@ -53,9 +53,10 @@ export default function QuienesSomos() {
             gestionan su establecimiento como una empresa.
           </p>
           <p>
-            Desarrollamos investigación propia a campo —ensayos agrícolas y
-            ganaderos— para respaldar cada recomendación con datos locales, un
-            diferencial central de nuestra forma de trabajar.
+            Sumamos especialistas según cada proyecto y desarrollamos
+            investigación propia a campo —ensayos agrícolas y ganaderos— para
+            respaldar cada recomendación con datos locales: un diferencial
+            central de nuestra forma de trabajar.
           </p>
         </FadeIn>
 
