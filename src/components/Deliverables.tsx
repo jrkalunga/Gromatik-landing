@@ -28,7 +28,7 @@ export default function Deliverables() {
             <FadeIn
               key={index}
               delay={index * 0.08}
-              className="group flex items-start gap-4 p-5 sm:p-6 bg-crema/50 rounded-xl border border-verde-profundo/10 hover:shadow-md hover:border-verde-acento/40 transition-all duration-300"
+              className="group flex items-start gap-4 p-5 sm:p-6 bg-crema rounded-xl border border-verde-profundo/10 hover:shadow-md hover:border-verde-acento/40 transition-all duration-300"
             >
               <div className="flex-shrink-0 w-6 h-6 mt-0.5">
                 <CheckCircle2 className="w-6 h-6 text-verde-acento" />

@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhatIsGromatik from "@/components/WhatIsGromatik";
-import Problems from "@/components/Problems";
+import Servicios from "@/components/Servicios";
 import KPIs from "@/components/KPIs";
 import Deliverables from "@/components/Deliverables";
 import AISection from "@/components/AISection";
@@ -108,7 +108,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <WhatIsGromatik />
-        <Problems />
+        <Servicios />
         <KPIs />
         <Deliverables />
         <AISection />

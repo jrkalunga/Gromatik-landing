@@ -8,7 +8,7 @@ export default function WhatIsGromatik() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
+    <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
       <div ref={ref} className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -31,8 +31,10 @@ export default function WhatIsGromatik() {
           className="space-y-6 text-lg sm:text-xl text-grafito/80 leading-relaxed"
         >
           <p>
-            Gromatik es un servicio de diagnóstico técnico-económico integral
-            orientado a establecimientos agropecuarios de escala comercial.
+            Gromatik es una consultora agropecuaria técnico-económica que
+            acompaña a establecimientos de escala comercial a lo largo de todo
+            el ciclo de su negocio: medir, planificar, seguir, investigar y
+            resolver.
           </p>
           <p>
             Analizamos el sistema productivo en su conjunto —ganadero y

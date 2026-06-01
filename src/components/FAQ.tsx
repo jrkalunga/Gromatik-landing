@@ -72,7 +72,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
+    <section className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ y: 16 }}
@@ -94,7 +94,7 @@ export default function FAQ() {
           whileInView={{ y: 0 }}
           viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="bg-blanco rounded-2xl p-6 sm:p-8 border border-verde-profundo/5 shadow-sm"
+          className="bg-crema rounded-2xl p-6 sm:p-8 border border-verde-profundo/10"
         >
           {faqs.map((faq, index) => (
             <FAQItem

@@ -16,7 +16,7 @@ const team = [
 
 export default function QuienesSomos() {
   return (
-    <section className="py-20 sm:py-28 bg-blanco relative overflow-hidden">
+    <section className="py-20 sm:py-28 bg-crema relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-verde-profundo/10 to-transparent" />
       </div>
@@ -52,6 +52,11 @@ export default function QuienesSomos() {
             una mirada integral y de largo plazo, orientada a productores que
             gestionan su establecimiento como una empresa.
           </p>
+          <p>
+            Desarrollamos investigación propia a campo —ensayos agrícolas y
+            ganaderos— para respaldar cada recomendación con datos locales, un
+            diferencial central de nuestra forma de trabajar.
+          </p>
         </FadeIn>
 
         <FadeIn delay={0.2} className="mb-8">
@@ -65,7 +70,7 @@ export default function QuienesSomos() {
             <FadeIn
               key={index}
               delay={0.3 + index * 0.12}
-              className="group bg-arena rounded-2xl p-6 sm:p-8 border border-verde-profundo/5 hover:shadow-lg hover:border-verde-acento/20 transition-all duration-300"
+              className="group bg-blanco rounded-2xl p-6 sm:p-8 border border-verde-profundo/10 hover:shadow-lg hover:border-verde-acento/40 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-14 h-14 flex items-center justify-center rounded-full bg-verde-acento/10 group-hover:bg-verde-acento/20 transition-colors duration-300">

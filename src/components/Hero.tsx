@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const trustBullets = [
-  "Mirada técnico-económica integrada",
-  "Plan de mejoras de mediano y largo plazo",
-  "Argentina · experiencia INTA",
+  "Acompañamiento en todo el ciclo",
+  "Mirada técnico-económica integral",
+  "Ensayos y datos propios a campo",
 ];
 
 const fadeInUp = {
@@ -48,10 +48,12 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mt-8 sm:mt-10 text-lg sm:text-xl md:text-2xl text-crema/85 max-w-3xl mx-auto leading-relaxed"
         >
-          Gromatik realiza diagnósticos técnico-económicos integrales para
-          establecimientos agropecuarios en Argentina —ganadería, agricultura y
-          sistemas mixtos—. Combinamos producción, costos, márgenes y capital
-          para detectar restricciones y caminos de mejora con impacto medible.
+          Acompañamos a establecimientos agropecuarios de Argentina —ganadería,
+          agricultura y sistemas mixtos— a lo largo de todo el ciclo: medimos el
+          sistema, planificamos las mejoras, seguimos la implementación,
+          investigamos a campo y resolvemos consultas puntuales. Integramos
+          producción, costos, márgenes y capital para mejorar tu rentabilidad
+          con impacto medible.
         </motion.p>
 
         <motion.div
@@ -65,13 +67,13 @@ export default function Hero() {
             href="#contacto"
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-verde-oscuro bg-verde-acento rounded-full hover:bg-crema transition-all duration-200 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 focus-visible:ring-offset-verde-profundo"
           >
-            Conversar sobre el diagnóstico de mi campo
+            Conversemos sobre tu campo
           </a>
           <a
             href="#que-entregamos"
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blanco border-2 border-blanco/30 rounded-full hover:border-verde-acento hover:text-verde-acento transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-verde-acento focus-visible:ring-offset-2 focus-visible:ring-offset-verde-profundo"
           >
-            Ver qué incluye
+            Ver cómo te acompañamos
           </a>
         </motion.div>
 

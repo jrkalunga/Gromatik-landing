@@ -27,7 +27,7 @@ export default function Footer() {
             />
           </a>
           <p className="text-blanco/70 text-base sm:text-lg mb-2">
-            Diagnóstico técnico-económico integral
+            Acompañamiento técnico-económico integral
           </p>
           <p className="text-blanco/50 text-sm mb-6">Argentina</p>
           <div className="w-16 h-px bg-blanco/20 mb-6" />
