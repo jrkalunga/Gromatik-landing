@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.png?v=2",
         width: 1200,
-        height: 1200,
+        height: 630,
         alt: "Gromatik — Medir el campo, decidir el negocio",
       },
     ],
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gromatik",
     description: "Medir el campo, decidir el negocio.",
-    images: ["/og-image.png"],
+    images: ["/og-image.png?v=2"],
   },
   robots: {
     index: true,
