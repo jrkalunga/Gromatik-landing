@@ -146,7 +146,7 @@ export default function Servicios() {
             No son servicios sueltos, sino un mismo proceso de acompañamiento:
             medimos tu sistema, planificamos las mejoras, seguimos la
             implementación, investigamos a campo y resolvemos las consultas que
-            aparecen. Entrás por donde lo necesites.
+            aparecen.
           </p>
         </FadeIn>
 

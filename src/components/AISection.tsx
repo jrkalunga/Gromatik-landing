@@ -5,9 +5,9 @@ import { useRef } from "react";
 import BulletGroma from "@/components/brand/BulletGroma";
 
 const aiUseCases = [
-  "integrar y procesar grandes volúmenes de información productiva, económica y ambiental,",
-  "incorporar variables climáticas, edáficas y agroecosistémicas relevantes para cada región,",
-  "explorar escenarios futuros posibles y alternativas de mejora.",
+  "Integrar y procesar grandes volúmenes de información productiva, económica y ambiental",
+  "Incorporar variables climáticas, edáficas y agroecosistémicas relevantes para cada región",
+  "Explorar escenarios futuros posibles y alternativas de mejora",
 ];
 
 export default function AISection() {
