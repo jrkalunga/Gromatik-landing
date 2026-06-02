@@ -35,7 +35,7 @@ export default function Hero() {
           initial="initial"
           animate="animate"
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="font-[var(--font-sora)] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blanco leading-[1.05] tracking-tight"
+          className="font-[var(--font-sora)] text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-bold text-blanco leading-[1.05] tracking-tight"
         >
           Entendé cómo funciona tu sistema productivo.{" "}
           <span className="text-verde-acento">Mejorá donde realmente importa.</span>
@@ -48,12 +48,9 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mt-8 sm:mt-10 text-lg sm:text-xl md:text-2xl text-crema/85 max-w-3xl mx-auto leading-relaxed"
         >
-          Acompañamos a establecimientos agropecuarios de Argentina —ganadería,
-          agricultura y sistemas mixtos— a lo largo de todo el ciclo: medimos el
-          sistema, planificamos las mejoras, seguimos la implementación,
-          investigamos a campo y resolvemos consultas puntuales. Integramos
-          producción, costos, márgenes y capital para mejorar tu rentabilidad
-          con impacto medible.
+          Te acompañamos en cada decisión de tu campo, de la medición al
+          resultado. Integramos producción, costos y capital con una mirada
+          técnico-económica para mejorar tu rentabilidad con impacto medible.
         </motion.p>
 
         <motion.div
