@@ -7,7 +7,7 @@ export const faqs: FAQ[] = [
   {
     question: "¿En qué momento conviene trabajar con Gromatik?",
     answer:
-      "En cualquiera. Acompañamos todo el ciclo: podés empezar por un diagnóstico, sumar un plan de mejora, contratar el seguimiento de la campaña o traernos una consulta puntual. Entrás por donde más lo necesites.",
+      "En cualquiera. Acompañamos todo el ciclo: podés empezar por un diagnóstico, sumar un plan de mejora, contratar el seguimiento de tu sistema productivo o traernos una consulta puntual. Entrás por donde más lo necesites.",
   },
   {
     question: "¿Qué información necesitan para empezar?",
@@ -22,7 +22,7 @@ export const faqs: FAQ[] = [
   {
     question: "¿El seguimiento es continuo o puntual?",
     answer:
-      "Las dos modalidades. Hacemos acompañamiento continuo durante la campaña, con ajustes según los resultados reales, o resolvemos consultas técnicas concretas cuando necesitás una respuesta puntual.",
+      "Las dos modalidades. Hacemos acompañamiento continuo de tu sistema productivo, con ajustes según los resultados reales, o resolvemos consultas técnicas concretas cuando necesitás una respuesta puntual.",
   },
   {
     question: "¿La información es confidencial?",

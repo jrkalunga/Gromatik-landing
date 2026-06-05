@@ -55,9 +55,9 @@ export const servicios: Servicio[] = [
     title: "Seguimiento Continuo",
     hook: "Acompañamiento para sostener resultados",
     intro:
-      "Te acompañamos en la implementación del plan con asesoría integral y mirada técnico-económica continua. Ajustamos las decisiones a medida que avanza la campaña, para que se traduzcan en resultados concretos y sostenibles.",
+      "Te acompañamos en la implementación del plan con asesoría integral y mirada técnico-económica continua. Ajustamos las decisiones a medida que evoluciona tu sistema productivo, para que se traduzcan en resultados concretos y sostenibles.",
     bullets: [
-      "Asesoría integral durante la campaña",
+      "Asesoría integral y continua",
       "Ajustes según resultados reales",
       "Mirada técnico-económica permanente",
       "Resultados concretos y sostenibles",
