@@ -2,6 +2,7 @@ import IconHoja from "@/components/brand/IconHoja";
 import IconGrafico from "@/components/brand/IconGrafico";
 import IconGranero from "@/components/brand/IconGranero";
 import FadeIn from "@/components/brand/FadeIn";
+import FotoBanda from "@/components/brand/FotoBanda";
 
 const categories = [
   {
@@ -82,6 +83,13 @@ export default function KPIs() {
               </FadeIn>
             );
           })}
+        </div>
+
+        <div className="mt-12 sm:mt-16 max-w-4xl mx-auto">
+          <FotoBanda
+            src="/fotos/manejo.jpg"
+            alt="Lote partido por el alambrado: el manejo cambia el resultado"
+          />
         </div>
       </div>
     </section>

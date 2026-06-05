@@ -1,5 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import FadeIn from "@/components/brand/FadeIn";
+import FotoBanda from "@/components/brand/FotoBanda";
 
 const deliverables = [
   "Dashboard de KPIs técnicos y económicos del establecimiento.",
@@ -45,6 +46,10 @@ export default function Deliverables() {
           No trabajamos con recomendaciones genéricas: las propuestas se
           construyen a medida de cada campo y de cada proyecto productivo.
         </FadeIn>
+
+        <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
+          <FotoBanda src="/fotos/rodeo.jpg" alt="Rodeo Angus en el campo" />
+        </div>
       </div>
     </section>
   );

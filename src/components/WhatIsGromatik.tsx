@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import FotoBanda from "@/components/brand/FotoBanda";
 
 export default function WhatIsGromatik() {
   const ref = useRef(null);
@@ -47,6 +48,10 @@ export default function WhatIsGromatik() {
             interpretarla y transformarla en decisiones concretas.
           </p>
         </motion.div>
+
+        <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
+          <FotoBanda src="/fotos/pastoreo.jpg" alt="Rodeo pastoreando en el campo" />
+        </div>
       </div>
     </section>
   );
