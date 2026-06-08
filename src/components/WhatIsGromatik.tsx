@@ -50,7 +50,7 @@ export default function WhatIsGromatik() {
         </motion.div>
 
         <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
-          <FotoBanda src="/fotos/pastoreo.jpg" alt="Rodeo pastoreando en el campo" />
+          <FotoBanda src="/fotos/verdeo.jpg" alt="Hacienda pastoreando un verdeo" />
         </div>
       </div>
     </section>

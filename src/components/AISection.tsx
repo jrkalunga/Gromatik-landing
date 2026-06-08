@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import BulletGroma from "@/components/brand/BulletGroma";
+import FotoBanda from "@/components/brand/FotoBanda";
 
 const aiUseCases = [
   "Integrar y procesar grandes volúmenes de información productiva, económica y ambiental",
@@ -71,6 +72,10 @@ export default function AISection() {
               no de decisiones automáticas.
             </span>
           </motion.p>
+
+          <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
+            <FotoBanda src="/fotos/colorada.jpg" alt="Vaca colorada en el campo" dark />
+          </div>
         </motion.div>
       </div>
     </section>

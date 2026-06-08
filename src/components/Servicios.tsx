@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import FadeIn from "@/components/brand/FadeIn";
+import FotoBanda from "@/components/brand/FotoBanda";
 import { servicios, type Servicio } from "@/data/servicios";
 
 function ServicioItem({
@@ -160,6 +161,10 @@ export default function Servicios() {
               />
             </FadeIn>
           ))}
+        </div>
+
+        <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
+          <FotoBanda src="/fotos/pastizal.jpg" alt="Hacienda en pastizal natural" dark />
         </div>
       </div>
     </section>

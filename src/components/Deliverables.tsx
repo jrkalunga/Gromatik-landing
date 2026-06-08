@@ -48,7 +48,7 @@ export default function Deliverables() {
         </FadeIn>
 
         <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
-          <FotoBanda src="/fotos/rodeo.jpg" alt="Rodeo Angus en el campo" />
+          <FotoBanda src="/fotos/cria.jpg" alt="Vaca con sus terneros en la pastura" />
         </div>
       </div>
     </section>
