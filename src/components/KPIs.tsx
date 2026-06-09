@@ -87,8 +87,8 @@ export default function KPIs() {
 
         <div className="mt-12 sm:mt-16 max-w-4xl mx-auto">
           <FotoBanda
-            src="/fotos/manejo.jpg"
-            alt="Lote partido por el alambrado: el manejo cambia el resultado"
+            src="/fotos/feedlot.jpg"
+            alt="Hacienda comiendo en el comedero de un feedlot"
           />
         </div>
       </div>
