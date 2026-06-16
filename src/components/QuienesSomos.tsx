@@ -4,7 +4,7 @@ import FadeIn from "@/components/brand/FadeIn";
 const team = [
   {
     name: "Juan",
-    photo: "/equipo/juan-v7.jpg",
+    photo: "/equipo/juan-v8.jpg",
     photoPosition: "center 35%",
     description:
       "Ingeniero Agrónomo, Magíster en Economía Agraria por la Universidad de Buenos Aires, con trayectoria en INTA. Experiencia en análisis de márgenes brutos por actividad, sensibilidad económica, rentabilidad del capital y evaluación económica ex ante y ex post. Integra la mirada económica, financiera y de gestión al diagnóstico integral del establecimiento.",
