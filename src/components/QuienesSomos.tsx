@@ -1,14 +1,18 @@
-import { User } from "lucide-react";
+import Image from "next/image";
 import FadeIn from "@/components/brand/FadeIn";
 
 const team = [
   {
     name: "Juan",
+    photo: "/equipo/juan-v4.jpg",
+    photoPosition: "center 35%",
     description:
       "Ingeniero Agrónomo, Magíster en Economía Agraria por la Universidad de Buenos Aires, con trayectoria en INTA. Experiencia en análisis de márgenes brutos por actividad, sensibilidad económica, rentabilidad del capital y evaluación económica ex ante y ex post. Integra la mirada económica, financiera y de gestión al diagnóstico integral del establecimiento.",
   },
   {
     name: "Manuel",
+    photo: "/equipo/manuel.jpg",
+    photoPosition: "center 70%",
     description:
       "Ingeniero Agrónomo con sólida trayectoria en INTA, donde lideró el grupo de Producción Animal y coordinó el área de investigación de la EEA San Luis. Experiencia en diseño de ensayos a campo, asesoramiento técnico directo a productores y liderazgo de equipos multidisciplinarios. Integra investigación aplicada y gestión operativa con enfoque agroecosistémico.",
   },
@@ -74,8 +78,15 @@ export default function QuienesSomos() {
               className="group bg-blanco rounded-2xl p-6 sm:p-8 border border-verde-profundo/10 hover:shadow-lg hover:border-verde-acento/40 transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-verde-acento/10 group-hover:bg-verde-acento/20 transition-colors duration-300">
-                  <User className="w-7 h-7 text-verde-acento" />
+                <div className="relative w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0 rounded-full overflow-hidden ring-2 ring-verde-acento/20 group-hover:ring-verde-acento/40 transition-all duration-300">
+                  <Image
+                    src={member.photo}
+                    alt={`Foto de ${member.name}`}
+                    fill
+                    sizes="96px"
+                    className="object-cover"
+                    style={{ objectPosition: member.photoPosition }}
+                  />
                 </div>
                 <h4 className="font-[var(--font-sora)] text-xl sm:text-2xl font-semibold text-verde-profundo">
                   {member.name}
