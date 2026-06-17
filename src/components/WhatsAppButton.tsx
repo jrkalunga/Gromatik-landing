@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 
-/** Canal de atención por WhatsApp de Gromatik. */
-const WHATSAPP_NUMBER = "5491134602116";
+/** Canal de atención por WhatsApp de Gromatik (línea de empresa). */
+const WHATSAPP_NUMBER = "5491132730280";
 const DEFAULT_MESSAGE = "Hola Gromatik, me gustaría hacer una consulta.";
 
 const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
